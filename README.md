@@ -17,17 +17,17 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-### Step 1: Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/note-keeper.git
 cd note-keeper
 
-### Step 2: Clone the repository
+
 brew tap mongodb/brew
 brew install mongodb-community@5.0
 brew services start mongodb/brew/mongodb-community
 
-### Step 3: Start the backend and frontend
+
 cd backend
 node addNote.js
 cd frontend
